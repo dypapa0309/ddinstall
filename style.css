@@ -74,3 +74,51 @@ li {
   color: #777;
   text-align: center;
 }
+
+.section-label {
+  font-size: 14px;
+  color: #aaa;
+  margin: 0 0 10px 0;
+}
+
+.check-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #2a2a2a;
+  cursor: pointer;
+}
+
+.check-item input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #ff5c1a;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.check-item span:nth-child(2) {
+  flex: 1;
+  font-size: 15px;
+}
+
+.item-price {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.total-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 2px solid #ff5c1a;
+}
+
+.total-price {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ff5c1a;
+}
