@@ -75,47 +75,10 @@
       </div>
     </div>
 
-    <!-- 시공 사진 슬라이드 -->
-    <h2>시공 사례</h2>
-    <div class="slider-wrap">
-      <div class="slider" id="slider">
-        <div class="slide empty-slide">사진 1</div>
-        <div class="slide empty-slide">사진 2</div>
-        <div class="slide empty-slide">사진 3</div>
-        <div class="slide empty-slide">사진 4</div>
-        <div class="slide empty-slide">사진 5</div>
-        <div class="slide empty-slide">사진 6</div>
-        <div class="slide empty-slide">사진 7</div>
-        <div class="slide empty-slide">사진 8</div>
-        <div class="slide empty-slide">사진 9</div>
-        <div class="slide empty-slide">사진 10</div>
-        <div class="slide empty-slide">사진 11</div>
-        <div class="slide empty-slide">사진 12</div>
-      </div>
-      <div class="slider-dots" id="sliderDots"></div>
-    </div>
-
     <!-- 자동 견적 -->
     <h2>견적 계산기</h2>
     <div class="box">
-      <p class="section-label">정수기 설치 전 타공</p>
-      <label class="check-item">
-        <input type="checkbox" value="30000" onchange="calcTotal()">
-        <span>엔지니어드 스톤 타공</span>
-        <span class="item-price">3만원</span>
-      </label>
-      <label class="check-item">
-        <input type="checkbox" value="70000" onchange="calcTotal()">
-        <span>세라믹 타공</span>
-        <span class="item-price">7만원</span>
-      </label>
-      <label class="check-item">
-        <input type="checkbox" value="70000" onchange="calcTotal()">
-        <span>빌트인 정수기</span>
-        <span class="item-price">7만원</span>
-      </label>
-
-      <p class="section-label" style="margin-top: 20px;">식기세척기 설치 전 시공</p>
+      <p class="section-label">식기세척기 설치 전 시공</p>
       <label class="check-item">
         <input type="checkbox" value="70000" onchange="calcTotal()">
         <span>장공사</span>
@@ -132,10 +95,34 @@
         <span class="item-price">3만원</span>
       </label>
 
+      <p class="section-label" style="margin-top: 20px;">정수기 설치 전 타공</p>
+      <label class="check-item">
+        <input type="checkbox" value="30000" onchange="calcTotal()">
+        <span>엔지니어드 스톤 타공</span>
+        <span class="item-price">3만원</span>
+      </label>
+      <label class="check-item">
+        <input type="checkbox" value="70000" onchange="calcTotal()">
+        <span>세라믹 타공</span>
+        <span class="item-price">7만원</span>
+      </label>
+      <label class="check-item">
+        <input type="checkbox" value="70000" onchange="calcTotal()">
+        <span>빌트인 정수기</span>
+        <span class="item-price">7만원</span>
+      </label>
+
       <div class="total-box" id="totalBox" style="display:none;">
         <span>총 견적</span>
         <span class="total-price" id="totalPrice"></span>
       </div>
+    </div>
+
+    <!-- 시공 사진 슬라이드 -->
+    <h2>시공 사례</h2>
+    <div class="slider-wrap">
+      <div class="slider" id="slider"></div>
+      <div class="slider-dots" id="sliderDots"></div>
     </div>
 
     <!-- CTA 반복 -->
